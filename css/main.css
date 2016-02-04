@@ -1,0 +1,321 @@
+/* header*/
+body{
+	margin:0;
+	padding: 0;	
+	text-align: center;
+}
+
+header{
+	display: inline-block;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	right: 150px;
+	display: inline-block;
+}
+
+.cabecera ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+    float: right;
+}
+
+.cabecera li {
+    float: left;
+	margin-top: 20px;
+}
+
+.cabecera li a {
+    display: block;
+    color: #A29793;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-decoration: none;
+    border-right: 1px solid #A29793;
+}
+
+ a:nth-last-child(6) {
+
+	border-right-width: 0px;
+}
+
+
+
+
+
+/* Change the link color to #111 (black) on hover */
+.cabecera li a:hover {
+    background-color: #5E7F39;
+    color: white;
+}
+
+/* fondo de foto en section  */
+section{
+	background-image: url(../img/semilla.jpg);
+	background-repeat: no-repeat;
+	height: 284px;
+}
+
+.fondogris{
+	background-color: #F2F2F2;
+	height: 150px;
+}
+/*-----mision*/
+
+.texto{
+	margin: auto;
+	text-align: center;
+	width: 700px;
+	padding-top: 50px;
+	font-size: 9px;
+	color: #969CA9;
+}
+
+
+/* --- mision--- */
+.mision{
+	padding: 100px 120px;
+
+}
+
+.bolas{
+	width: 100px;
+	height: 100px;
+}
+
+.mision h1 {
+	font-size: 15px;
+}
+
+.mision p {
+	width: 450px;
+	padding-left: 50px;
+	text-align: center;
+}
+
+/* ARTICLE fondo2 con foto */
+
+.fondo2{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.fondointerior{
+	background-image: url(../img/metodo.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: cover;
+	background-position: 0 0px;
+}
+
+.titulomet{
+	padding-bottom: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.textometodologia{
+	width: 560px;
+	position: relative;
+	top:140px;
+	left: 60px;
+	font-size: 10px;
+	color: white
+}
+ /* ----- servicios----*/
+
+.serviciosdiv {
+	margin: auto;
+	text-align: center;
+	width: 700px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 9px;
+	color: black;
+}
+
+.serviciosdiv h2{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+/*--------servicios balls---*/
+
+.servicios {
+	padding-bottom: 100px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.col-4 {
+	margin-bottom: 50px;
+}
+
+.servicios h2{
+	width: 180px;
+	height: 40px;
+	position: relative;
+	left: 80px;
+	font-size: 15px;
+	color: #577A2F;
+	padding-bottom: 20px;
+}
+
+.fondo3{
+	background-color: #5E8039;
+	padding: 100px;
+	color: #FDF9EA;
+}
+
+.fondo3 h3 {
+	text-align: left;
+	position: relative;
+	left: 80px;
+}
+
+.fondo3 img{
+	width: 450px;
+	height: 300px;
+}
+
+.proyectos {
+	position: relative;
+	top: 50px;
+}
+
+/* ---- equipo ----*/
+.equipo{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.equipo p{
+	margin-bottom: 30px;
+}
+
+.equipo .row h3{
+	text-align: left;
+	color: #577A2F; 
+}
+
+.fotoequipo1{
+	width: 150px;
+	height: 150px;
+	background-image: url(../img/fotos/equipo2.jpg);
+	border-radius: 50%;
+	background-size: 165px 165px;
+	margin: auto;
+	margin-bottom: 30px;
+	
+}
+
+.fotoequipo2{
+	width: 150px;
+	height: 150px;
+	background-image: url(../img/fotos/equipo3.jpg);
+	border-radius: 50%;
+	background-size: 165px 165px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.redes {
+	width: 5%;
+	list-style-image: none;
+	
+}
+/*---------blog--------*/
+.blog{
+	background-image: url(../img/fondo2.jpg);
+	background-repeat:  no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.blog .col-3 div { 
+	text-align: left;
+	position: relative;
+	left: 15px;
+}
+
+.blog .col-4 div { 
+	width: 300px;
+	text-align: left;
+	position: relative;
+	left: 69px;
+
+}
+.blog img {
+	width: 280px;
+	height: 180px;
+	
+	
+}
+
+.blog .row{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+ .blog .col-1 img {
+ 	width: 50%;
+ 	height: 50%;
+ 	position: relative;
+ 	top: 70px;
+ }
+
+ /*---------social----------*/
+ .social {
+ background-color: #4D4D4D;
+ }
+
+.sociales{
+	border: 1px solid #AEAEAE;
+	width: 280px;
+	height: 200px;
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-right: -5px;
+}
+
+.sociales p{
+	font-size: 20px;
+	color: #F5F5EC;
+	position: relative;
+	right: 50px;
+	top: 30px;
+}
+.sociales img{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 100px;
+	left: 30px;
+}
+ 
+
+/*----footer-------*/
+ .footer {
+ 	background-color: #F2F2F2;
+ 	padding: 60px;
+ }
+
+ .1{
+ 	position: relative;
+ 	right: 100px;
+ }
+
+ .2 {
+ 	position: relative;
+ 	right: 0px;
+ }
